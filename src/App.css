@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.active{
+  background-color:blue;
+  color:white;
+  padding:1px;
+}
+
+.red{
+  background-color: red;
+  color:white; 
+  margin-right: 20px;
+}
+
+.green{
+  background-color: green; 
+  color:white;
+}
+a{
+  text-decoration: none;
+
+}
