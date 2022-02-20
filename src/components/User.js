@@ -9,7 +9,7 @@ function User() {
     const {id} = useParams();
 
     useEffect(()=>{
-        axios(`https://jsonplaceholder.typicode.com/users/${id}`)
+        axios(`${process.env.REACT_APP_API_ENDPOINT}/users/${id}`)
         .then((res)=>setUser(res.data))
         .finally(()=>setLoading(false));
     },[id])
