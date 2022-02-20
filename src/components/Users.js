@@ -1,9 +1,7 @@
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
     NavLink,
-    useParams,
     useRouteMatch
   } from "react-router-dom";
 
